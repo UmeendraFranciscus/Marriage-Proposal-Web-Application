@@ -1,0 +1,43 @@
+/**
+ * EWS Rating Stars - jQuery plugin for dynamic rating stars
+ *
+ * Copyright (c) 2014-2015
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Project home:
+ *   https://github.com/milosglavinic/ews-rating-stars
+ *
+ * Author: Milos Glavinic
+ * Email: milos.glavinic@gmail.com
+ *
+ */
+
+.ewsRatingStars {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ewsRatingStars .ewsRatingStar {
+    background: url('icons/star_image_blue.png') 0 0 no-repeat;
+    display: inline-block;
+}
+
+.ewsRatingStars .ewsRatingStar.ewsRatingStarColorRed {
+    background: url('icons/star_image_red.png') 0 0 no-repeat;
+}
+
+.ewsRatingStars .ewsRatingStar.ewsRatingStarColorGreen {
+    background: url('icons/star_image_green.png') 0 0 no-repeat;
+}
+
+.ewsRatingStars .ewsRatingStar.ewsRatingStarColorBlue {
+    background: url('icons/star_image_blue.png') 0 0 no-repeat;
+}
+
+.ewsRatingStars .ewsRatingStar.ewsRatingStarColorYellow {
+    background: url('icons/star_image_yellow.png') 0 0 no-repeat;
+}
